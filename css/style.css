@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100;200;300;400;600;700&display=swap');
+
+body{
+	font-family: 'catamaran', sans-serif;
+	font-size: 18px;
+	color: #000;
+	
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#282d33;
+	--fondo-footer:#30363d;
+	--color-footer:#898989;
+	--color-blanco:#fff;
+}
+header{
+	background-color: #ffffff;
+}
+
+#hero{
+	background-image: url("../img/home-grid-new-slide-4.jpg");
+	background-size:cover;
+	background-position: top center;
+	text-align: center;
+}
+#hero h3{
+	font-size: 30px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+}
+#hero h1{
+	font-size: 100px;
+	font-weight: 600;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+}
+
+.btn-blanco{
+	background-color: var(--color-blanco);
+	color: #000000;
+	padding: 15px 30px;
+	border-radius: 40px;
+	text-transform: uppercase;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+.btn-blanco:hover{
+	background-color: #F03A9A;
+	color: #fffffff;
+}
+.overlay{
+	background-color: rgba(0,0,0,0.1);
+	padding: 15% 0;
+}
+
+#intro img{
+	marging-top:20px;
+	padding-top: 120px;
+}
+
+#intro h4 {
+	font-size: 18px;
+	font-weight: 800;
+	text-align: center;
+	margin-top: 60px;
+	
+}
+#intro p{
+	font-size: 15px;
+	font-weight: 300;
+	text-align: center;
+	color:#888888;
+	padding-bottom: 40px;
+	
+}
+
+#Services img{
+	marging-top:20px;
+	padding-top: 120px;
+	padding-left: 80px;
+}
+
+#Services h4 {
+	font-size: 18px;
+	font-weight: 800;
+	text-align: center;
+	margin-top: 60px;
+	
+}
+#Services p{
+	font-size: 15px;
+	font-weight: 300;
+	text-align: center;
+	color:#888888;
+	padding-bottom: 40px;
+}
+
+#cta{
+	background-color: #ffffff;
+	background-size:cover;
+	background-position: top center;
+	text-align: center;
+}
+
+#cta h3{
+	font-size: 17px;
+	font-weight: 300;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #FFFFFF;
+}
+#cta h1{
+	font-size: 50px;
+	font-weight: 700;
+	margin-bottom: 20px;
+	color: #FFFFFF;
+}
+
+#clients img{
+	padding-top: 60px;
+	padding-bottom: 70px;
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+	text-align: center;
+	font-size: 13px;
+}
